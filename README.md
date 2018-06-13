@@ -15,3 +15,4 @@ The HelloWorld application will be available at `http://<jboss server>:<http_por
 
 The Ticket Monster application will be available at `http://<jboss server>:<http_port>/ticket-monster`
 # jboss-standalone
+# jboss-standalone-fixed

@@ -25,12 +25,6 @@
 - name: Rename install directory
   command: chdir=/usr/share /bin/mv jboss-as-7.1.1.Final jboss-as creates=/usr/share/jboss-as
 
-- name: Copying JBOSS Modules file
-  copy: 
-     src: /apps/wildfly/ansible-examples-master/jboss-standalone/roles/jboss-standalone/templates/jboss-modules.jar
-     dest: /usr/share/jboss-as/
-
-
 - name: Copying standalone.xml configuration file
   template: 
     src: standalone.xml 
